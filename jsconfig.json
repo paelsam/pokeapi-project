@@ -3,10 +3,14 @@
     "target": "es5",
     "module": "esnext",
     "baseUrl": "./",
+    "jsx": "preserve",
     "moduleResolution": "node",
     "paths": {
       "@/*": [
         "src/*"
+      ],
+      "api": [
+        "src/api"
       ]
     },
     "lib": [
